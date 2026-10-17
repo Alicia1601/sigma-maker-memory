@@ -1,0 +1,12 @@
+Place ici tes images, avec EXACTEMENT ces noms :
+
+logo-sigma.png     -> logo officiel de SIGMA (utilisé dans l'en-tête, l'accueil et le pied de page)
+projet-1.jpg       -> Système de feux tricolores
+projet-2.jpg       -> Horloge
+projet-3.jpg       -> Alarme pour l'établissement
+projet-4.jpg       -> Prise de poids et calcul automatique de l'IMC
+projet-5.jpg       -> Distributeur de liquide
+projet-6.jpg       -> Carte interactive des villes du Togo
+
+Tant qu'une image est absente, le site affiche un espace réservé.
+Si tes fichiers ont une autre extension (ex. .png), modifie le champ "image" dans script.js.

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projets | SIGMA Maker Memory</title>
+  <meta name="description" content="Les projets réalisés au FabLab de SIGMA : feux tricolores, horloge, alarme, IMC, distributeur de liquide et carte interactive du Togo.">
+  <meta name="theme-color" content="#1F6980">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="projets">
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+
+  <main id="contenu">
+
+    <section class="page-hero">
+      <div class="container">
+        <h2>Quand l’imagination prend forme.</h2>
+        <p>Découvrez quelques réalisations du FabLab de SIGMA. Chacune est née d’une question simple, puis d’un élève ou d’un groupe qui a décidé d’y répondre. <br> Clique sur « Accéder » pour comprendre à quoi sert chaque projet.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:2rem">
+      <div class="container">
+
+        <div class="filters" role="group" aria-label="Filtrer les projets par période">
+          <button class="chip" type="button" data-filter="tous" aria-pressed="true">Tous les projets</button>
+          <button class="chip" type="button" data-filter="2022-2024" aria-pressed="false">2022–2024</button>
+          <button class="chip" type="button" data-filter="2025-2026" aria-pressed="false">2025–2026</button>
+        </div>
+
+        <!-- Les cartes sont générées par script.js à partir de la liste PROJETS -->
+        <div class="projects-grid" id="projects-grid"></div>
+
+        <!-- Appel à participation -->
+        <aside class="idea-box" id="idee" data-reveal>
+          <div>
+            <h2>Une idée pour aller plus loin ?</h2>
+            <p>Tu as une idée de projet ou une amélioration à proposer ? Le FabLab est un espace où la curiosité devient une occasion d’expérimenter et de créer.</p>
+          </div>
+          <div>
+            <a class="btn btn-primary" data-idea-btn aria-disabled="true">Proposer une idée</a>
+            <span class="hint" data-idea-hint>Remplissez le formulaire pour proposer une idée.</span>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Fenêtre de détail d'un projet -->
+  <dialog class="modal" id="modal" aria-labelledby="modal-title">
+    <div id="modal-content"></div>
+  </dialog>
+
+  <div id="site-footer"></div>
+</body>
+</html>

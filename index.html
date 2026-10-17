@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIGMA Maker Memory </title>
+  <meta name="description" content="SIGMA Maker Memory : découvre l’histoire, les projets et la culture Maker du FabLab de SIGMA.">
+  <meta name="theme-color" content="#1F6980">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="accueil">
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <div id="site-header"></div>
+
+  <main id="contenu">
+
+    <!-- ===== Héros ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-intro">
+          <span class="hero-tag">Bienvenue au FabLab de SIGMA, vous êtes sur SIGMA Maker Memory !!</span>
+          <h1>Ici, les idées prennent <span class="rotator" id="rotator">forme</span>.</h1>
+          <p class="hero-lead">Des idées plein la tête, des mains en action et des projets qui prennent vie ! Bienvenue dans l’univers de SIGMA Maker Memory : explore son histoire, découvre les créations des élèves et plonge dans l’aventure Maker, là où la curiosité devient innovation.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="projets.html">Découvrez nos projets</a>
+            <a class="btn btn-ghost" href="apropos.html">L’histoire du FabLab</a>
+          </div>
+        </div>
+
+        <div class="board" aria-hidden="true">
+          <div class="board-core"><img class="logo-img" src="images/logo-sigma.png" alt="" data-logo></div>
+          <span class="tool t1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>Imprimante 3D</span>
+          <span class="tool t2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>Découpe laser</span>
+          <span class="tool t3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14M5 20h14M7 4v16M17 4v16M7 9l10 2M7 14l10 2"/></svg>Broderie</span>
+          <span class="tool t4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg>Électronique</span>
+          <span class="tool t5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>Programmation</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== La culture Maker ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>La culture Maker, en trois gestes</h2>
+          <p>Un FabLab ne se visite pas seulement : il se vit !! <br> Des idées qui fusent, des expériences qui surprennent et des créations qui prennent forme ! Entre dans l’univers de SIGMA et découvre les Makers en pleine action.</p>
+        </div>
+        <div class="pillars">
+          <article class="pillar" data-reveal>
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.4 1.1 2.2h5c0-.8.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></div>
+            <h3>Imaginer</h3>
+            <p>Tout commence par une question : et si on pouvait résoudre ça autrement ? Au FabLab, chaque idée mérite d’être écoutée et prise au sérieux.</p>
+          </article>
+          <article class="pillar" data-reveal>
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v6L4.5 18a2 2 0 0 0 1.8 3h11.4a2 2 0 0 0 1.8-3L14 8V2"/><path d="M8.5 2h7M7 15h10"/></svg></div>
+            <h3>Expérimenter</h3>
+            <p>On essaie, on se trompe, on recommence. Ici, une erreur n’est pas un échec : c’est une étape de fabrication qui rapproche de la bonne solution.</p>
+          </article>
+          <article class="pillar" data-reveal>
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7V21h3.3l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></div>
+            <h3>Créer</h3>
+            <p>Du croquis à l’objet, de la ligne de code à la machine qui fonctionne : on apprend en fabriquant, et on repart avec quelque chose de réel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Équipements ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="container split">
+        <div data-reveal>
+          <h2>Un laboratoire qui a grandi avec ses élèves</h2>
+          <p>Du laboratoire de technologie d’hier au FabLab d’aujourd’hui, SIGMA a transformé son espace pour offrir à ses élèves de vrais outils de fabrication.</p>
+          <a class="btn btn-ghost" href="apropos.html#histoire">Lire toute l’histoire</a>
+        </div>
+        <div class="equip-grid">
+          <div class="equip" data-reveal><h3>Imprimantes 3D</h3><p>Transformer un modèle numérique en objet.</p></div>
+          <div class="equip" data-reveal><h3>Machines à broder et à coudre</h3><p>Créer et personnaliser des textiles.</p></div>
+          <div class="equip" data-reveal><h3>Découpe et gravure laser</h3><p>Découper et graver avec précision.</p></div>
+          <div class="equip" data-reveal><h3>Machines DTF</h3><p>Imprimer des motifs.</p></div>
+          <div class="equip" data-reveal><h3>Presses thermiques</h3><p>Fixer ses créations sur le support choisi.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Appel à l'action ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <div>
+            <h2>Des projets t’attendent !! </h2>
+            <p>Feux tricolores, horloge, distributeur de liquide (eau, jus...), carte interactive du Togo… Découvre ce qui a déjà été imaginé, puis dis-nous ce que tu inventerais.</p>
+          </div>
+          <a class="btn btn-primary" href="projets.html">Découvrez nos projets</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
