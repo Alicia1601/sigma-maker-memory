@@ -29,19 +29,19 @@ const SITE = {
 
 /* Équipe du FabLab SIGMA (genre : 'f' = icône féminine, 'h' = icône masculine) */
 const EQUIPE = [
-  { civ: 'Mme', nom: 'ASSOLOHOU Cica',  rôle: 'Référente du Lab', genre: 'f', principal: true },
-  { civ: 'M.',  nom: 'ADJARE Kofi Armand Gloire',   rôle: 'FabManager',       genre: 'h' },
-  { civ: 'M.',  nom: 'AKAKPO Abraham Aimé ',   rôle: 'FabManager',       genre: 'h' },
-  { civ: 'M.',  nom: 'OLANLO Sylvestre', rôle: 'Responsable du Département Innovations Technologiques',      genre: 'h' }
+  { civ: 'Mme', nom: 'ASSOLOHOU Cica',  role: 'Référente du Lab', genre: 'f', principal: true },
+  { civ: 'M.',  nom: 'ADJARE Kofi Armand Gloire',   role: 'FabManager',       genre: 'h' },
+  { civ: 'M.',  nom: 'AKAKPO Abraham Aimé ',   role: 'FabManager',       genre: 'h' },
+  { civ: 'M.',  nom: 'OLANLO Sylvestre', role: 'Responsable du Département Innovations Technologiques',      genre: 'h' }
 ];
 
 /* Groupe 17 : remplace les « nom: '' » par les vrais noms (ex. civ: 'M.', nom: 'DUPONT Jean', genre: 'h') */
 const GROUPE17 = [
-  { civ: 'Mlle', nom: 'AMOUSSOU Alice Kafui', rôle: 'Stagiaire FabManager', genre: 'f' },
-  { civ: 'M.', nom: 'ABALO Essohan-Eyouemou ', rôle: 'Stagiaire FabManager', genre: 'h' },
-  { civ: 'M.', nom: 'KADANGA tchamiè', rôle: 'Stagiaire FabManager', genre: 'h' },
-  { civ: 'M.', nom: 'KADE Yata Lido Djo', rôle: 'Stagiaire FabManager', genre: 'h' },
-  { civ: 'M.', nom: 'ABRANGAO Loukman', rôle: 'Stagiaire FabManager', genre: 'h' }
+  { civ: 'Mlle', nom: 'AMOUSSOU Alice Kafui', role: 'Stagiaire FabManager', genre: 'f' },
+  { civ: 'M.', nom: 'ABALO Essohan-Eyouemou ', role: 'Stagiaire FabManager', genre: 'h' },
+  { civ: 'M.', nom: 'KADANGA tchamiè', role: 'Stagiaire FabManager', genre: 'h' },
+  { civ: 'M.', nom: 'KADE Yata Lido Djo', role: 'Stagiaire FabManager', genre: 'h' },
+  { civ: 'M.', nom: 'ABRANGAO Loukman', role: 'Stagiaire FabManager', genre: 'h' }
 ];
 
 /* Icônes (SVG en ligne, aucune bibliothèque nécessaire) */
