@@ -32,7 +32,7 @@ const EQUIPE = [
   { civ: 'Mme', nom: 'ASSOLOHOU Cica',  role: 'Référente du Lab', genre: 'f', principal: true },
   { civ: 'M.',  nom: 'ADJARE Kofi Armand Gloire',   role: 'FabManager',       genre: 'h' },
   { civ: 'M.',  nom: 'AKAKPO Abraham Aimé ',   role: 'FabManager',       genre: 'h' },
-  { civ: 'M.',  nom: 'OLANLO Sylvestre', role: 'Responsable du Département Innovations Technologiques',      genre: 'h' }
+  { civ: 'M.',  nom: 'OLANLO Sylvestre', role: 'Responsable du Département Innovation des STEM',      genre: 'h' }
 ];
 
 /* Groupe 17 : remplace les « nom: '' » par les vrais noms (ex. civ: 'M.', nom: 'DUPONT Jean', genre: 'h') */
